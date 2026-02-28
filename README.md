@@ -1,4 +1,4 @@
-# [Your Name] - Full Stack Developer Portfolio
+# Kentache Abdessalem - Full Stack Developer Portfolio
 
 A clean, modern, and minimal portfolio website built with Next.js and Tailwind CSS.
 
@@ -105,6 +105,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Contact
 
 - Portfolio: [your-domain.com]
-- Email: [your-email@example.com]
-- LinkedIn: [linkedin-profile]
-- GitHub: [github-username]
+- Email: [kentacheabdou1@gmail.com]
+- LinkedIn: [www.linkedin.com/in/abdessalem-kentache-72b008201]
+- GitHub: [github-abdessalem2000]
