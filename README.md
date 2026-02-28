@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# [Your Name] - Full Stack Developer Portfolio
+
+A clean, modern, and minimal portfolio website built with Next.js and Tailwind CSS.
+
+## Features
+
+- 🚀 **Next.js 15** with TypeScript
+- 🎨 **Tailwind CSS** for styling
+- 🌙 **Dark/Light mode** toggle
+- 📱 **Fully responsive** design (mobile-first)
+- 🔍 **SEO optimized** with proper meta tags
+- ⚡ **Production-ready** structure
+- 🎯 **Clean typography** with Inter font
+
+## Tech Stack
+
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS
+- **Styling**: Tailwind CSS with custom dark mode support
+- **Icons**: SVG icons (no external dependencies)
+- **Deployment**: Ready for Vercel, Netlify, or any static hosting
+
+## Project Structure
+
+```
+portfolio/
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components/
+│       ├── layout/
+│       │   ├── Header.tsx
+│       │   └── Footer.tsx
+│       └── sections/
+│           ├── Hero.tsx
+│           ├── About.tsx
+│           ├── TechStack.tsx
+│           ├── FeaturedProject.tsx
+│           ├── OtherProjects.tsx
+│           └── Contact.tsx
+├── public/
+│   ├── robots.txt
+│   └── sitemap.xml
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Abdessalem2000/portfolio.git
+   cd portfolio
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Set up environment variables**
+   ```bash
+   cp .env.example .env.local
+   ```
+   
+   Add your environment variables:
+   ```env
+   MONGODB_URI=mongodb+srv://your-connection-string
+   JWT_SECRET=your-jwt-secret
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## Available Scripts
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+### Vercel (Recommended)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push your code to GitHub
+2. Connect your repository to [Vercel](https://vercel.com)
+3. Deploy automatically
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Other Platforms
 
-## Deploy on Vercel
+The app is ready for deployment on:
+- Netlify
+- AWS Amplify
+- Any static hosting service
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contact
+
+- Portfolio: [your-domain.com]
+- Email: [your-email@example.com]
+- LinkedIn: [linkedin-profile]
+- GitHub: [github-username]
