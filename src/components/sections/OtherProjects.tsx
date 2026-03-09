@@ -2,17 +2,19 @@ export default function OtherProjects() {
   const projects = [
     {
       title: 'ZidStore',
-      description: '[Project Description]',
-      techStack: ['Next.js', 'Stripe', 'PostgreSQL', 'Tailwind CSS', 'Node.js'],
-      github: '#',
-      demo: '#'
+      description: 'A modern e-commerce platform built with Next.js 16, React, and TypeScript. Features include product management, order processing, admin dashboard, and full Arabic RTL support.',
+      techStack: ['Next.js 16', 'React', 'TypeScript', 'Tailwind CSS', 'Prisma ORM', 'Framer Motion'],
+      github: 'https://github.com/Abdessalem2000/zidstore',
+      demo: 'https://zidstore.vercel.app/',
+      image: '/zidstore-screenshot.png'
     },
     {
       title: 'SaaS Analytics Dashboard',
       description: '[Project Description]',
       techStack: ['React.js', 'D3.js', 'Express', 'MongoDB', 'Chart.js'],
       github: '#',
-      demo: '#'
+      demo: '#',
+      image: null
     }
   ]
 
@@ -36,9 +38,19 @@ export default function OtherProjects() {
               </h3>
               
               <div className="mb-6">
-                <div className="bg-gray-700 rounded-xl aspect-video flex items-center justify-center border border-gray-600 mb-6">
-                  <span className="text-gray-400">Project Screenshot</span>
-                </div>
+                {project.image ? (
+                  <div className="bg-gray-700 rounded-xl aspect-video overflow-hidden border border-gray-600 mb-6">
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                ) : (
+                  <div className="bg-gray-700 rounded-xl aspect-video flex items-center justify-center border border-gray-600 mb-6">
+                    <span className="text-gray-400">Project Screenshot</span>
+                  </div>
+                )}
               </div>
               
               <p className="text-gray-300 mb-8 leading-relaxed text-lg">

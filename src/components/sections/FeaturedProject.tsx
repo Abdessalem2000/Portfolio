@@ -13,8 +13,8 @@ export default function FeaturedProject() {
             {/* Project Screenshot */}
             <div className="relative h-96 bg-gray-700 overflow-hidden">
               <img 
-                src="/zidstore-screenshot.png" 
-                alt="ZidStore E-commerce Platform" 
+                src="/projects/ai-automation-agency.png" 
+                alt="AI Automation Agency Dashboard" 
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
@@ -28,11 +28,11 @@ export default function FeaturedProject() {
             <div className="p-8 md:p-10">
               <div className="animate-slideInRight">
                 <h3 className="text-3xl font-bold text-white mb-4">
-                  ZidStore
+                  AI Automation Agency – Lead Pipeline & Dashboard
                 </h3>
                 
                 <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                  A modern e-commerce platform built with Next.js 16, React, and TypeScript. Features include product management, order processing, admin dashboard, and full Arabic RTL support. Demonstrates full-stack development skills with responsive design, API integration, and deployment optimization.
+                  A full‑stack lead pipeline dashboard for agencies and e‑commerce brands. It centralizes all leads captured from public forms, shows real‑time stats (total leads, weekly leads), and lets users update lead status (New / In progress / Closed) directly from the table. Built with Next.js, Supabase (RLS), and a dark SaaS UI ready for client demos.
                 </p>
                 
                 <div className="mb-8">
@@ -40,27 +40,27 @@ export default function FeaturedProject() {
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     <li className="flex items-center text-gray-300">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                      Product Management System
+                      Centralized Lead Management
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                      Order Processing Pipeline
+                      Real-time Stats Dashboard
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                      Admin Dashboard
+                      Lead Status Updates
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                      Arabic RTL Support
+                      Public Form Integration
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                      Responsive Design
+                      Supabase RLS Security
                     </li>
                     <li className="flex items-center text-gray-300">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                      API Integration
+                      Dark SaaS UI Design
                     </li>
                   </ul>
                 </div>
@@ -69,29 +69,29 @@ export default function FeaturedProject() {
                   <h4 className="text-lg font-semibold text-white mb-4">Technology Stack</h4>
                   <div className="flex flex-wrap gap-3">
                     <span className="px-4 py-2 bg-gray-700 text-gray-300 rounded-lg text-sm font-medium hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300">
-                      Next.js 16
-                    </span>
-                    <span className="px-4 py-2 bg-gray-700 text-gray-300 rounded-lg text-sm font-medium hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300">
-                      React
+                      Next.js
                     </span>
                     <span className="px-4 py-2 bg-gray-700 text-gray-300 rounded-lg text-sm font-medium hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300">
                       TypeScript
                     </span>
                     <span className="px-4 py-2 bg-gray-700 text-gray-300 rounded-lg text-sm font-medium hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300">
+                      React
+                    </span>
+                    <span className="px-4 py-2 bg-gray-700 text-gray-300 rounded-lg text-sm font-medium hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300">
                       Tailwind CSS
                     </span>
                     <span className="px-4 py-2 bg-gray-700 text-gray-300 rounded-lg text-sm font-medium hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300">
-                      Prisma ORM
+                      Supabase
                     </span>
                     <span className="px-4 py-2 bg-gray-700 text-gray-300 rounded-lg text-sm font-medium hover:bg-blue-600/20 hover:text-blue-400 transition-all duration-300">
-                      Framer Motion
+                      Node.js
                     </span>
                   </div>
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://zidstore.vercel.app/"
+                    href="https://ai-automation-agency-puce.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
@@ -99,7 +99,7 @@ export default function FeaturedProject() {
                     View Live Demo
                   </a>
                   <a
-                    href="https://github.com/Abdessalem2000/zidstore"
+                    href="https://github.com/Abdessalem2000/ai-automation-agency"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 border-2 border-gray-600 text-gray-300 font-semibold rounded-lg hover:border-blue-500 hover:text-blue-400 transform hover:scale-105 transition-all duration-300"
