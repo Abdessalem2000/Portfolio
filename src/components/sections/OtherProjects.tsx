@@ -1,6 +1,14 @@
 export default function OtherProjects() {
   const projects = [
     {
+      title: 'Local AI Agent for LinkedIn Outreach',
+      description: 'A local AI agent that plans and automates highly targeted LinkedIn outreach for B2B leads. Features persona-based planning, CSV generation, and We-Connect integration for safe message delivery.',
+      techStack: ['Node.js', 'TypeScript', 'LLM', 'We-Connect', 'Automation', 'Express'],
+      github: null,
+      demo: null,
+      image: '/projects/ai-linkedin-agent.png'
+    },
+    {
       title: 'ZidStore',
       description: 'A modern e-commerce platform built with Next.js 16, React, and TypeScript. Features include product management, order processing, admin dashboard, and full Arabic RTL support.',
       techStack: ['Next.js 16', 'React', 'TypeScript', 'Tailwind CSS', 'Prisma ORM', 'Framer Motion'],
@@ -71,18 +79,27 @@ export default function OtherProjects() {
               </div>
               
               <div className="flex gap-6">
-                <a
-                  href={project.demo}
-                  className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25 text-center"
-                >
-                  Live Demo
-                </a>
-                <a
-                  href={project.github}
-                  className="px-6 py-3 border-2 border-gray-600 text-gray-300 font-semibold rounded-lg hover:border-blue-500 hover:text-blue-400 transform hover:scale-105 transition-all duration-300 text-center"
-                >
-                  GitHub
-                </a>
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25 text-center"
+                  >
+                    Live Demo
+                  </a>
+                )}
+                {project.github && (
+                  <a
+                    href={project.github}
+                    className="px-6 py-3 border-2 border-gray-600 text-gray-300 font-semibold rounded-lg hover:border-blue-500 hover:text-blue-400 transform hover:scale-105 transition-all duration-300 text-center"
+                  >
+                    GitHub
+                  </a>
+                )}
+                {!project.demo && !project.github && (
+                  <div className="px-6 py-3 bg-gray-700 text-gray-400 font-semibold rounded-lg text-center">
+                    Local Tool
+                  </div>
+                )}
               </div>
             </div>
           ))}
